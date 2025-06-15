@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8"> <!--เพื่อให้รองรับภาษาอื่นๆ UTF-8 ถือว่าครอบคลุมที่สุด-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ดีเมื่อมีการย้ายไปดูในอุปกรณ์อื่นๆ-->
+    <title>🔢Dangerous number Project</title>
+    <link rel="stylesheet" href="number.css">
+</head>
+
+<body>
+    <div class="pic">
+        <div class="logo-section">
+            <div class="university-logo">
+                <img src="logo.png" alt="Buranarumluk school">
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🔢Dangerous Number Project</h1>
+            <p>เครื่องมือช่วยคำนวณตัวเลขที่ควรจะนับให้ได้!!</p>
+        </div>
+        
+        <form id="calculatorForm">
+            <div class="input-group">
+                <label for="amax">🎯 เลขอันตราย (ค่าสูงสุด):</label>
+                <input type="number" id="amax" name="amax" placeholder="เช่น 100" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="d">📊 ลิมิตการนับ (นับได้ไม่เกินกี่เลข):</label>
+                <input type="number" id="d" name="d" placeholder="เช่น 10" required>
+            </div>
+            
+            <button type="submit" class="calculate-btn" title="คลิก หรือ Enter เพื่อคำนวณ">
+                ✨ เริ่มคำนวณ
+            </button> <br>
+
+            
+        </form>
+        
+        <div id="result" class="result">
+            <h3>🎉 เลขที่ควรนับให้ได้:</h3> 
+            <div id="sequenceDisplay" class="sequence-display"></div>
+            
+            <div class="info-panel">
+                <h4>📋 ข้อมูลการคำนวณ:</h4>
+                <p id="calculationInfo"></p>
+                <p id="sequenceCount"></p>
+                <p id="rangeInfo"></p>
+            </div>
+        </div> <br>
+        <div class="linkk">
+            <a href="https://www.youtube.com/watch?v=RMbN6QiLIRc" title="คลิกเพื่อดู" target="_blank"><b><li>คลิกเพื่อดูตัวอย่างโครงงาน</li></b></a>
+        </div> 
+    </div>
+    <script src="number.js"></script>
+
+</body>
+</html>
