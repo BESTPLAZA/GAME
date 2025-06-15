@@ -193,3 +193,13 @@ body {
 .linkk:hover {
     transform: translateY(-2px);
 }
+@media (max-width:400px){
+.container {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    max-width: 1000px;
+    width: 100%;
+}
+}
