@@ -13,6 +13,13 @@ body {
     justify-content: center;
     padding: 20px;
 }
+
+.pixel {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 28px;
+  font-style: normal;
+}
+
 .pic {
     background: white;
     padding: 40px;
@@ -61,7 +68,7 @@ body {
 
 .header h1 {
     color: #ea1a1a;
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
