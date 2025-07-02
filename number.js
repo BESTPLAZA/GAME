@@ -54,9 +54,9 @@ function displayResult(sequence, amax, d, r) {
     
     // แสดงข้อมูลการคำนวณ
     if (r == 0) {
-        calculationInfo.textContent = `เลขเริ่มต้น: ${r + d + 1}, ช่วงก้าว: ${d + 1}`;
+        calculationInfo.textContent = `เลขเริ่มต้น: ${r + d + 1}, ช่วงก้าว: ${d + 1} (ไม่ควรเริ่มเล่นก่อน)`;
     } else {
-        calculationInfo.textContent = `เลขเริ่มต้น: ${r}, ช่วงก้าว: ${d + 1}`;
+        calculationInfo.textContent = `เลขเริ่มต้น: ${r}, ช่วงก้าว: ${d + 1} (ควรเริ่มเล่นก่อน)`;
     }
     sequenceCount.textContent = `จำนวนเลขทั้งหมด: ${sequence.length} ตัว`;
     rangeInfo.textContent = `ช่วงค่า: ${Math.min(...sequence)} - ${Math.max(...sequence)} (ไม่เกิน ${amax - 1})`;
