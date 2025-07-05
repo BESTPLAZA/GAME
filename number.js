@@ -59,7 +59,7 @@ function displayResult(sequence, amax, d, r) {
         calculationInfo.textContent = `เลขเริ่มต้น: ${r}, ช่วงก้าว: ${d + 1} (ควรเริ่มเล่นก่อน)`;
     }
     sequenceCount.textContent = `จำนวนเลขทั้งหมด: ${sequence.length} ตัว`;
-    rangeInfo.textContent = `ช่วงค่า: ${Math.min(...sequence)} - ${Math.max(...sequence)} (ไม่เกิน ${amax - 1})`;
+    rangeInfo.textContent = `ช่วงค่า: ${Math.min(...sequence)} - ${Math.max(...sequence)}`;
     
     resultDiv.classList.add('show');
     resultDiv.scrollIntoView({ behavior: 'smooth' });
